@@ -27,10 +27,11 @@ namespace MagdalenaPolakLab1Calculator
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             if((textBoxEqt.Text == "0") || (operationPressed))
             {
-                textBoxEqt.Clear(); 
-                
+                textBoxEqt.Clear();
+               
             }
             Button b = (Button)sender;
             textBoxEqt.Text += b.Text;
@@ -54,24 +55,35 @@ namespace MagdalenaPolakLab1Calculator
         private void buttonResult_Click(object sender, EventArgs e)
         {
             labelViewEqt.Text = "";
+            
             switch (operation)
             {
                 case "+":
-                    textBoxEqt.Text = (eqtValue + Double.Parse(textBoxEqt.Text)).ToString();
-                    break;
+                    textBoxEqt.Text = (eqtValue += Double.Parse(textBoxEqt.Text)).ToString();
+                    goto extra;
                 case "-":
-                    textBoxEqt.Text = (eqtValue - Double.Parse(textBoxEqt.Text)).ToString();
-                    break;
+                    textBoxEqt.Text = (eqtValue -= Double.Parse(textBoxEqt.Text)).ToString();
+                    goto extra;
                 case "*":
-                    textBoxEqt.Text = (eqtValue * Double.Parse(textBoxEqt.Text)).ToString();
-                    break;
+                    textBoxEqt.Text = (eqtValue *= Double.Parse(textBoxEqt.Text)).ToString();
+                    goto extra;
                 case "/":
-                    textBoxEqt.Text = (eqtValue / Double.Parse(textBoxEqt.Text)).ToString();
-                    break;
+                    textBoxEqt.Text = (eqtValue /= Double.Parse(textBoxEqt.Text)).ToString();
+                    goto extra;
                 default:
-                    break;
+                    goto extra;
             }
-               
+
+        extra:
+            {
+                if (eqtValue == double.PositiveInfinity)
+                {
+                    System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=z2CIiES_xxk&ab_channel=FutureShock");
+
+                }
+            }
+           
+
 
         }
 
