@@ -53,7 +53,7 @@
             // button7
             // 
             this.button7.AutoEllipsis = true;
-            this.button7.Font = new System.Drawing.Font("Arial Black", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button7.Font = new System.Drawing.Font("Bookman Old Style", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button7.Location = new System.Drawing.Point(25, 91);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(49, 43);
@@ -64,7 +64,7 @@
             // 
             // button8
             // 
-            this.button8.Font = new System.Drawing.Font("Arial Black", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button8.Font = new System.Drawing.Font("Bookman Old Style", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button8.Location = new System.Drawing.Point(80, 91);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(49, 43);
@@ -75,7 +75,7 @@
             // 
             // button9
             // 
-            this.button9.Font = new System.Drawing.Font("Arial Black", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button9.Font = new System.Drawing.Font("Bookman Old Style", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button9.Location = new System.Drawing.Point(135, 91);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(49, 43);
@@ -86,7 +86,7 @@
             // 
             // button4
             // 
-            this.button4.Font = new System.Drawing.Font("Arial Black", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button4.Font = new System.Drawing.Font("Bookman Old Style", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button4.Location = new System.Drawing.Point(25, 140);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(49, 43);
@@ -97,7 +97,7 @@
             // 
             // button5
             // 
-            this.button5.Font = new System.Drawing.Font("Arial Black", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button5.Font = new System.Drawing.Font("Bookman Old Style", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button5.Location = new System.Drawing.Point(80, 140);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(49, 43);
@@ -108,7 +108,7 @@
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Arial Black", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button2.Font = new System.Drawing.Font("Bookman Old Style", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button2.Location = new System.Drawing.Point(80, 189);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(49, 43);
@@ -119,7 +119,7 @@
             // 
             // button6
             // 
-            this.button6.Font = new System.Drawing.Font("Arial Black", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button6.Font = new System.Drawing.Font("Bookman Old Style", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button6.Location = new System.Drawing.Point(135, 140);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(49, 43);
@@ -130,7 +130,7 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Arial Black", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button1.Font = new System.Drawing.Font("Bookman Old Style", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button1.Location = new System.Drawing.Point(25, 189);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(49, 43);
@@ -141,7 +141,7 @@
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("Arial Black", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button3.Font = new System.Drawing.Font("Bookman Old Style", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button3.Location = new System.Drawing.Point(135, 189);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(49, 43);
@@ -152,7 +152,7 @@
             // 
             // button0
             // 
-            this.button0.Font = new System.Drawing.Font("Arial Black", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button0.Font = new System.Drawing.Font("Bookman Old Style", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button0.Location = new System.Drawing.Point(25, 238);
             this.button0.Name = "button0";
             this.button0.Size = new System.Drawing.Size(104, 43);
@@ -164,7 +164,7 @@
             // 
             // buttonComa
             // 
-            this.buttonComa.Font = new System.Drawing.Font("Arial Black", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.buttonComa.Font = new System.Drawing.Font("Bookman Old Style", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.buttonComa.Location = new System.Drawing.Point(135, 238);
             this.buttonComa.Name = "buttonComa";
             this.buttonComa.Size = new System.Drawing.Size(49, 43);
@@ -175,7 +175,7 @@
             // 
             // buttonDivide
             // 
-            this.buttonDivide.Font = new System.Drawing.Font("Arial Black", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.buttonDivide.Font = new System.Drawing.Font("Bookman Old Style", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.buttonDivide.Location = new System.Drawing.Point(190, 91);
             this.buttonDivide.Name = "buttonDivide";
             this.buttonDivide.Size = new System.Drawing.Size(49, 43);
@@ -186,7 +186,7 @@
             // 
             // buttonMultiplay
             // 
-            this.buttonMultiplay.Font = new System.Drawing.Font("Arial Black", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.buttonMultiplay.Font = new System.Drawing.Font("Bookman Old Style", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.buttonMultiplay.Location = new System.Drawing.Point(190, 140);
             this.buttonMultiplay.Name = "buttonMultiplay";
             this.buttonMultiplay.Size = new System.Drawing.Size(49, 43);
@@ -197,7 +197,7 @@
             // 
             // buttonMinus
             // 
-            this.buttonMinus.Font = new System.Drawing.Font("Arial Black", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.buttonMinus.Font = new System.Drawing.Font("Bookman Old Style", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.buttonMinus.Location = new System.Drawing.Point(190, 189);
             this.buttonMinus.Name = "buttonMinus";
             this.buttonMinus.Size = new System.Drawing.Size(49, 43);
@@ -208,7 +208,7 @@
             // 
             // buttonCE
             // 
-            this.buttonCE.Font = new System.Drawing.Font("Arial Black", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.buttonCE.Font = new System.Drawing.Font("Bookman Old Style", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.buttonCE.Location = new System.Drawing.Point(245, 91);
             this.buttonCE.Name = "buttonCE";
             this.buttonCE.Size = new System.Drawing.Size(64, 43);
@@ -219,7 +219,7 @@
             // 
             // buttonC
             // 
-            this.buttonC.Font = new System.Drawing.Font("Arial Black", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.buttonC.Font = new System.Drawing.Font("Bookman Old Style", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.buttonC.Location = new System.Drawing.Point(245, 140);
             this.buttonC.Name = "buttonC";
             this.buttonC.Size = new System.Drawing.Size(64, 43);
@@ -230,7 +230,7 @@
             // 
             // buttonResult
             // 
-            this.buttonResult.Font = new System.Drawing.Font("Arial Black", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.buttonResult.Font = new System.Drawing.Font("Bookman Old Style", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.buttonResult.Location = new System.Drawing.Point(245, 189);
             this.buttonResult.Name = "buttonResult";
             this.buttonResult.Size = new System.Drawing.Size(64, 92);
@@ -241,7 +241,7 @@
             // 
             // buttonPlus
             // 
-            this.buttonPlus.Font = new System.Drawing.Font("Arial Black", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.buttonPlus.Font = new System.Drawing.Font("Bookman Old Style", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.buttonPlus.Location = new System.Drawing.Point(190, 238);
             this.buttonPlus.Name = "buttonPlus";
             this.buttonPlus.Size = new System.Drawing.Size(49, 43);
@@ -252,10 +252,11 @@
             // 
             // textBoxEqt
             // 
-            this.textBoxEqt.Font = new System.Drawing.Font("Arial", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.textBoxEqt.Font = new System.Drawing.Font("Bookman Old Style", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.textBoxEqt.Location = new System.Drawing.Point(29, 37);
             this.textBoxEqt.Name = "textBoxEqt";
-            this.textBoxEqt.Size = new System.Drawing.Size(284, 48);
+            this.textBoxEqt.ReadOnly = true;
+            this.textBoxEqt.Size = new System.Drawing.Size(284, 49);
             this.textBoxEqt.TabIndex = 1;
             this.textBoxEqt.Text = "0";
             this.textBoxEqt.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -263,12 +264,14 @@
             // labelViewEqt
             // 
             this.labelViewEqt.AutoSize = true;
-            this.labelViewEqt.Location = new System.Drawing.Point(278, 21);
+            this.labelViewEqt.Font = new System.Drawing.Font("Bookman Old Style", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelViewEqt.Location = new System.Drawing.Point(29, 17);
             this.labelViewEqt.Name = "labelViewEqt";
-            this.labelViewEqt.Size = new System.Drawing.Size(10, 13);
+            this.labelViewEqt.Size = new System.Drawing.Size(109, 17);
             this.labelViewEqt.TabIndex = 2;
-            this.labelViewEqt.Text = ".";
+            this.labelViewEqt.Text = "                            .";
             this.labelViewEqt.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.labelViewEqt.UseCompatibleTextRendering = true;
             // 
             // CalculatorWindow
             // 
