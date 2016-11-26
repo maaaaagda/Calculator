@@ -48,6 +48,7 @@
             this.buttonPlus = new System.Windows.Forms.Button();
             this.textBoxEqt = new System.Windows.Forms.TextBox();
             this.labelViewEqt = new System.Windows.Forms.Label();
+            this.buttonSave = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button7
@@ -273,11 +274,22 @@
             this.labelViewEqt.TextAlign = System.Drawing.ContentAlignment.TopRight;
             this.labelViewEqt.UseCompatibleTextRendering = true;
             // 
+            // buttonSave
+            // 
+            this.buttonSave.Location = new System.Drawing.Point(329, 43);
+            this.buttonSave.Name = "buttonSave";
+            this.buttonSave.Size = new System.Drawing.Size(72, 237);
+            this.buttonSave.TabIndex = 3;
+            this.buttonSave.Text = "Save";
+            this.buttonSave.UseVisualStyleBackColor = true;
+            this.buttonSave.Click += new System.EventHandler(this.buttonSave_Click);
+            // 
             // CalculatorWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(325, 295);
+            this.ClientSize = new System.Drawing.Size(415, 295);
+            this.Controls.Add(this.buttonSave);
             this.Controls.Add(this.labelViewEqt);
             this.Controls.Add(this.textBoxEqt);
             this.Controls.Add(this.buttonPlus);
@@ -330,6 +342,7 @@
         private System.Windows.Forms.Button buttonPlus;
         private System.Windows.Forms.TextBox textBoxEqt;
         private System.Windows.Forms.Label labelViewEqt;
+        private System.Windows.Forms.Button buttonSave;
     }
 }
 

@@ -7,14 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using System.IO.Compression;
+
 
 namespace MagdalenaPolakLab1Calculator
 {
     public partial class CalculatorWindow : Form
     {
+        
         Double eqtValue = 0;
         String operation = "";
+        String wholeEqt = "";
         bool operationPressed = false;
+       
         public CalculatorWindow()
         {
             InitializeComponent();
@@ -22,7 +28,7 @@ namespace MagdalenaPolakLab1Calculator
 
         private void CalculatorWindow_Load(object sender, EventArgs e)
         {
-            
+           
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -35,6 +41,7 @@ namespace MagdalenaPolakLab1Calculator
             }
             Button b = (Button)sender;
             textBoxEqt.Text += b.Text;
+            wholeEqt += b.Text;
             operationPressed = false;
         }
 
@@ -49,12 +56,15 @@ namespace MagdalenaPolakLab1Calculator
             operation = b.Text;
             eqtValue = Double.Parse(textBoxEqt.Text);
             labelViewEqt.Text = eqtValue + " " +operation;
+            wholeEqt += operation;
             operationPressed = true;
         }
-
-        private void buttonResult_Click(object sender, EventArgs e)
+        
+private void buttonResult_Click(object sender, EventArgs e)
         {
-            labelViewEqt.Text = "";
+            
+             
+               labelViewEqt.Text = "";
             
             switch (operation)
             {
@@ -76,6 +86,7 @@ namespace MagdalenaPolakLab1Calculator
 
         extra:
             {
+                wholeEqt += "="+textBoxEqt.Text + Environment.NewLine;
                 if (eqtValue == double.PositiveInfinity)
                 {
                     System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=z2CIiES_xxk&ab_channel=FutureShock");
@@ -102,6 +113,7 @@ namespace MagdalenaPolakLab1Calculator
                 }
               
             }
+           
 
 
         }
@@ -124,6 +136,36 @@ namespace MagdalenaPolakLab1Calculator
             }
 
             return true;
+        }
+
+        private void buttonSave_Click(object sender, EventArgs e)
+        {
+            using (StreamWriter writeEqt = new StreamWriter(@"equatations.txt", true))
+
+            {
+                writeEqt.WriteLine();
+                writeEqt.WriteLine("*********** "+DateTime.Now+ " ***********");
+                writeEqt.Write(wholeEqt);
+                writeEqt.Close();
+              
+            }
+            using (FileStream fs = new FileStream("equatation.zip", FileMode.Create))
+            using (ZipArchive arch = new ZipArchive(fs, ZipArchiveMode.Create))
+            {
+                arch.CreateEntryFromFile("equatations.txt", "equatations.txt");
+
+
+            }
+
+
+            //ZipFile.ExtractToDirectory(zipPath, extractPath);
+            // ZipFile.CreateFromDirectory(@"C:\Users\DELL\Documents\Visual Studio 2015\Projects\MagdalenaPolakLab1Calculator\MagdalenaPolakLab1Calculator\bin\Debug\equatations.txt", @"C:\Users\DELL\Documents\Visual Studio 2015\Projects\MagdalenaPolakLab1Calculator\MagdalenaPolakLab1Calculator\bin\Debug\equatations.zip");
+
+
+        }
+        private void createZip()
+        {
+            
         }
     }
 }
