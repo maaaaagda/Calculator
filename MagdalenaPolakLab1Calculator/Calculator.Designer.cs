@@ -254,7 +254,8 @@
             // textBoxEqt
             // 
             this.textBoxEqt.Font = new System.Drawing.Font("Bookman Old Style", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBoxEqt.Location = new System.Drawing.Point(29, 37);
+            this.textBoxEqt.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.textBoxEqt.Location = new System.Drawing.Point(25, 37);
             this.textBoxEqt.Name = "textBoxEqt";
             this.textBoxEqt.ReadOnly = true;
             this.textBoxEqt.Size = new System.Drawing.Size(284, 49);
@@ -276,9 +277,9 @@
             // 
             // buttonSave
             // 
-            this.buttonSave.Location = new System.Drawing.Point(329, 43);
+            this.buttonSave.Location = new System.Drawing.Point(331, 37);
             this.buttonSave.Name = "buttonSave";
-            this.buttonSave.Size = new System.Drawing.Size(72, 237);
+            this.buttonSave.Size = new System.Drawing.Size(72, 244);
             this.buttonSave.TabIndex = 3;
             this.buttonSave.Text = "Save";
             this.buttonSave.UseVisualStyleBackColor = true;
@@ -288,6 +289,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(415, 295);
             this.Controls.Add(this.buttonSave);
             this.Controls.Add(this.labelViewEqt);
@@ -310,6 +312,7 @@
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
+            this.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.MaximizeBox = false;
             this.Name = "CalculatorWindow";
             this.ShowIcon = false;
